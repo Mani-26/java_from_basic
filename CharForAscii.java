@@ -1,8 +1,8 @@
 import java.util.*;
-public class char_input{
+public class CharForAscii{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
-        char a=sc.next().charAt(0);
-        System.out.printf("a="+a);
+        int a=sc.nextInt();
+        System.out.printf("Char ="+(char)a);
     }
 }

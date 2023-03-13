@@ -1,8 +1,8 @@
 import java.util.*;
-public class float_input{
+public class StringInput{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
-        float a=sc.nextFloat();
+        String a=sc.next();
         System.out.printf("a="+a);
     }
 }
