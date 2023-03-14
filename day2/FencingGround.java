@@ -4,7 +4,6 @@ public class FencingGround{
         Scanner sc=new Scanner(System.in);
         int l=sc.nextInt();
         int b=sc.nextInt();
-        
-        System.out.println("Required length of Rope is "+(2*(l+b))+"m"+"Required quantity of carpet is "+(l*b));
+        System.out.println("Required length is "+(2*(l+b))+"m"+"\n"+"Required quantity of carpet is "+(l*b)+"sqm");
     }
 }
