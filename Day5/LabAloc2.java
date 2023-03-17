@@ -5,8 +5,8 @@ public class LabAloc2{
         int x=sc.nextInt();
         int y=sc.nextInt();
         int z=sc.nextInt();
-        String s=sc.nextLine();
-        if(s.equals()"L1"){
+        String s=sc.next();
+        if(s.equals("L1")){
             if(y < z){
                 System.out.println("L2");
             }
@@ -24,7 +24,7 @@ public class LabAloc2{
 
             }
         }
-        else if(s.equals("L1")){
+        else{
             if(x < y){
                 System.out.println("L1");
             }
