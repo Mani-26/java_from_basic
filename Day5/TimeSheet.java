@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class TimeSheet{
 public static void main(String args[]){
-    Scanner sc=new Scanner(System.in);
+    Scanner sc =new Scanner(System.in);
     int sun=sc.nextInt();
     int mon=sc.nextInt();
     int tue=sc.nextInt();
@@ -9,64 +9,46 @@ public static void main(String args[]){
     int thu=sc.nextInt();
     int fri=sc.nextInt();
     int sat=sc.nextInt();
-    int sur,mor,tur,wer,thr,frr,sar,th,tot;
-        sur=sun*150;
-        mor=mon*100;
-        tur=tue*100;
-        wer=wed*100;
-        thr=thu*100;
-        frr=fri*100;
-        sar=sat*100;
-        tot=sur+mor+tur+wer+thr+frr+sar;
-    if(sun<=8){
-        sur=sun*150;
-    }
-    else if(sun>8){
-        sur+=((sun-8)*15);  
-    }
+    int s1=0,s2=0,s3=0,s4=0,s5=0,s6=0,s7=0;
+    s1=sun*150;
+    s2=sat*125;
     if(mon<=8){
-        mor=mon*100;
+        s3=mon*100;
     }
     else if(mon>8){
-        mor+=((mon-8)*15);
+        int d=mon-8;
+        s3= (mon*100)+(d*15);
     }
     if(tue<=8){
-        tur=tue*100;
+        s4=tue*100;
+     
     }
     else if(tue>8){
-        tur+=((tue-8)*15);
+        int a=tue-8;
+        s4= (tue*100)+(a*15);
     }
     if(wed<=8){
-        wer=wed*100;
+        s5=wed*100;
     }
     else if(wed>8){
-        wer+=((wed-8)*15);
+        int b=wed-8;
+        s5= (wed*100)+(b*15);
     }
     if(thu<=8){
-        thr=thu*100;
+        s6=thu*100;
     }
     else if(thu>8){
-        thr+=((thu-8)*15);
+        int c=thu-8;
+        s6= (thu*100)+(c*15);
     }
     if(fri<=8){
-        frr=fri*100;
+        s7=fri*100;
     }
     else if(fri>8){
-        frr+=((fri-8)*15);
+        int d=fri-8;
+        s7= (fri*100)+(d*15);
     }
-    if(sat<=8){
-        sar=sat*100;
-    }
-    else if(sat>8){
-        sar+=((sat-8)*15);
-    }
-    th=sun+mon+tue+wed+thu+fri+sat;
-    if(th<=40){
-        tot=sur+mor+tur+wer+thr+frr+sar;
-    }
-    else if(th>40){
-        tot+=((sur+mor+tur+wer+thr+frr+sar)-40)*25;
-    }
-    System.out.println(tot);
+    int salary=(s1+s2+s3+s4+s5+s6+s7);
+    System.out.println(salary); 
 }
 }
