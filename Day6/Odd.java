@@ -1,37 +1,24 @@
 import java.util.*;
-public class Odd{
+public class odd{
 public static void main(String args[]){
     Scanner sc=new Scanner(System.in);
-    int inp1=sc.nextInt();
-    int inp2=sc.nextInt();
-    int inp3=sc.nextInt();
-    float mark=0;
-    if(inp1%2!=0 && inp1>0){
-        mark+=1;
-            if(inp2%2!=0 && inp2>0){
+    int inp=sc.nextInt();
+    float mark=0,count=0;
+    while(inp>0){
+        if(inp%2!=0){
             mark+=1;
-                if(inp3%2!=0 && inp3>0){
-                mark+=1;
-                }
-                else if(inp3%2==0 && inp1>0){
-                mark-=0.5;
-                }
-            }
-            else if(inp2%2==0 && inp1>0){
+            count++;
+        }
+        else{
             mark-=0.5;
-                if(inp3%2!=0 && inp3>0){
-                mark+=1;
-                }
-                else if(inp3%2==0 && inp1>0){
-                mark-=0.5;
-                }
-            }  
-    }
-    else if(inp1%2==0 && inp1>0){
-        mark-=0.5;
-    }
-    else{
-        mark-=1;
+        }
+        if(count==3){
+            break;
+        }
+        inp=sc.nextInt();
+        }
+    if(inp<0){
+            mark-=1;
     }
     System.out.printf("%.1f",mark);
 }
