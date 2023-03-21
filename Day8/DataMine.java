@@ -3,7 +3,7 @@ public class DataMine{
 public static void main(String args[]){
     Scanner sc =new Scanner(System.in);
     int inp = sc.nextInt();
-    int sq,p,digit=0,a=0,odd=0,even=0;
+    int p,digit=0,a=0,odd=0,even=0;
     p = inp;
         while(p>0){
             a=p%10;
