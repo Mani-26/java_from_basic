@@ -10,9 +10,5 @@ public static void main(String args[]){
             count++;
             System.out.print(sq+" ");
         }
-        // for(int i=1;i<n;i++){
-        //     a=(int)Math.pow(3,i);
-        //     System.out.print(" "+a);
-        // }
 }
 }
