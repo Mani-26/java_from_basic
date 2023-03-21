@@ -11,11 +11,11 @@ public static void main(String args[]){
             }
             else if(i%2==0){
                 System.out.print(b+" ");
-                b*=3.0f;
+                b*=3;
             }
-            else if(i>1 && i%2!=0){
+            else{
                 System.out.print(c+" ");
-                c*=3.0f;
+                c*=3;
             }
         }
 }

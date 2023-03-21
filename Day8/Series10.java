@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class Series3{
+public class Series10{
 public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int a=3;
+        int a=2;
         for(int i=1;i<=n;i++){
-            a=(int)Math.pow(3,i);
             System.out.print(a+" ");
+            a=(a*a)-1;
         }
-    }
+}
 }
