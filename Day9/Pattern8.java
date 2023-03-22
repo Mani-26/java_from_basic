@@ -6,7 +6,7 @@ public static void main(String args[]){
     int m=n;
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
-            if((j+i)==6 || (j+m)==6){
+            if((j+i)==n+1 || (j+m)==n+1){
             System.out.print("*"+" ");
             }
             else{
