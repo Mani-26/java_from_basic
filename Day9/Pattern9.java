@@ -10,7 +10,7 @@ public static void main(String args[]){
             System.out.print(" ");
         }
         for(int j=i;j>=1;j--){ //for forward
-            System.out.print("%d*",a++);
+            System.out.printf("%d*",a++);
         }
         for(int t=i;t>1;t--){ //for reverse
             System.out.printf("%d*",d++);
