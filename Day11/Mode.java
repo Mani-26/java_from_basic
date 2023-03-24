@@ -5,21 +5,21 @@ public static void main(String args[]){
     System.out.println("Enter the number of elements in the array");
     int n=sc.nextInt();
     int arr[]=new int[n];
-        System.out.println("Enter the elements in the array");
+    System.out.println("Enter the elements in the array");
         for(int i=0; i<n; i++){
             arr[i]=sc.nextInt();
         } 
         int m=0;
         for (int i=0; i<n; i++){
-                for(int j=i+1;j<n;j++){
-                    if(arr[i]==arr[j]){
-                        m++;
-                        System.out.println("The mode of the array is "+arr[i]);
-                    }
+            for(int j=i+1;j<n;j++){
+                if(arr[i]==arr[j]){
+                    m++;
+                    System.out.println("The mode of the array is "+arr[i]);
                 }
             }
-            if(m==0){
-                 System.out.println("The mode of the array is none");
-}
-}
+        }
+        if(m==0){
+            System.out.println("The mode of the array is none");
+        }
+    }
 }
