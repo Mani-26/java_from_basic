@@ -14,5 +14,5 @@ public static void main(String args[]){
         }else{
               System.out.printf("The median of the array is %.2f"+" ",(float)(a[(n+1)/2]));
         }
-}
+    }
 }
