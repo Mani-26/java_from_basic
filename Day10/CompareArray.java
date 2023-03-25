@@ -1,5 +1,5 @@
 import java.util.*;
-public class RamuRaju{
+public class CompareArray{
 public static void main(String args[]){
     Scanner sc=new Scanner(System.in);
     int n=sc.nextInt();
@@ -17,11 +17,9 @@ public static void main(String args[]){
                 count++;
             }
         }
-    if(count==n){
-    System.out.print("yes");
-    }
-    else{
-    System.out.print("no");
-    }
+    if(count==n)
+        System.out.print("yes");
+    else
+        System.out.print("no");
 }
 }

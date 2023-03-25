@@ -16,13 +16,12 @@ public static void main(String args[]){
        }
         else{
             System.out.println("Array after deletion is");
-            int  a=0;
-            while(a<n){
-                if(a!=pos-1){
-                System.out.println(arr[a]);
-                }
-                a++;
-                }
+            for(int i=0;i<n;i++){
+                if (i==pos-1)
+                    continue;
+                else
+                    System.out.println(arr[i]);
+            }
       }
 }
 }
