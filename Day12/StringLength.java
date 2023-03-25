@@ -8,6 +8,6 @@ public static void main(String args[]){
         for(char c:ch){
             a++;
         }
-            System.out.print(a);
+            System.out.print("The length of word "+str+" is "+a);
 }
 }
