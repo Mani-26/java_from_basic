@@ -13,6 +13,7 @@ public static void main(String args[]){
         int max=0;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
+            max =arr[0][j];
             if (arr[j][i]>max){
                 max=arr[j][i];
             }
