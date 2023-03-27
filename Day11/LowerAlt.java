@@ -1,5 +1,5 @@
-import java.util.Scanner;
-public class lower{
+import java.util.*;
+public class LowerAlt{
 public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
@@ -10,14 +10,13 @@ public static void main(String args[]){
             }
         }
         for(int i=0;i<n;i++){
-            for(int j=0;j<i;j++){
-                if ((i<j)&&(arr[i][j]==0)){
-                    System.out.println("yes");
-                }
-                else{
-                    System.out.println(" No");
-                }   
+            for(int j=i+1;j<n;j++){
+                if (arr[i][j]==0)
+                    System.out.println("Yes");            
+                else        
+                    System.out.println(" No"); 
             }
         }
+
     }
 }
