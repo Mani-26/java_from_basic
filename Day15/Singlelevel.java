@@ -1,5 +1,5 @@
 import java.util.*;
-public class Single{
+public class Singlelevel{
     public static void main(String[]args){
         Animal2 k=new Animal2();
         k.King();
