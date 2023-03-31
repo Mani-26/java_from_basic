@@ -20,7 +20,6 @@ abstract class Marks{
 }
 class A extends Marks{
     public int Marks1,Marks2,Marks3;
-    A(){}
     public void getpercentage(){
         double per=(Marks1+Marks2+Marks3)/3.0;
         System.out.printf("%.2f",per);
@@ -29,7 +28,6 @@ class A extends Marks{
 }
 class B extends Marks{
     public int Marks1,Marks2,Marks3,Marks4;
-    B(){}
     public void getpercentage(){
         double per=(Marks1+Marks2+Marks3+Marks4)/4.0;
         System.out.printf("%.2f",per);
