@@ -1,10 +1,10 @@
 import java.util.*;
 public class Abstract4{
     public static void main(String []args){
-        mani m=new mani();
-        m.input();
-        m.add();
-        m.result();
+        cls c=new cls();
+        c.input();
+        c.add();
+        c.result();
     }
 }
 abstract class First{
@@ -12,7 +12,7 @@ abstract class First{
     public abstract void add();
     public abstract void result();
 }
-class mani extends First{
+class cls extends First{
     public int a,b,add;
     public void input(){
         Scanner s=new Scanner(System.in);
