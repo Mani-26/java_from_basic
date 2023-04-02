@@ -16,7 +16,7 @@ public class Abstract3{
         d.div();
     }
 }
-class Complex{
+abstract class Complex{
     double r1,r2,i1,i2;
     void add(){}
     void sub(){}
