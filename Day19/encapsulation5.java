@@ -2,13 +2,23 @@ import java.util.*;
 public class encapsulation5{
     public static void main(String args[]){
         Scanner s=new Scanner(System.in);
-        Hall h=new Hall();
-        h.setname(s.next());
-        h.set(s.nextInt());
-        h.settype(s.next());
-        System.out.println("Player's Name: "+h.getname());
-        System.out.println("Player's Age: "+h.getage());
-        System.out.println("Player's Gametype: "+h.gettype());
+        Hall h1=new Hall();
+        Hall h2=new Hall();
+        h1.setname(s.nextLine());
+        h1.setcontactNumber(s.nextLine());
+        h1.setcostPerDay(s.nextDouble());
+        s.nextLine();
+        h1.setownerName(s.nextLine());
+        h2.setname(s.nextLine());
+        h2.setcontactNumber(s.nextLine());
+        h2.setcostPerDay(s.nextDouble());
+        s.nextLine();
+        h2.setownerName(s.nextLine()); 
+        if(h1.getname().equals(h2.getname()) && h1.getcontactNumber().equals(h2.getcontactNumber()) && h1.getcostPerday()==(h2.getcostPerday()) && h1.getownerName().equals(h2.getownerName())) {
+            System.out.println("Halls are same");
+        }     
+        else
+            System.out.println("Halls are different");
     }
 }
 class Hall{
@@ -16,22 +26,28 @@ class Hall{
     private String contactNumber; 
     private double costPerDay;
     private String ownerName; 
-        public void setname(String name){
+        void setname(String name){
             this.name=name;
         }
-        public String getname(){
+        String getname(){
             return name;
         }
-        public void setcontactNumber(String contactNumber){
+        void setcontactNumber(String contactNumber){
             this.contactNumber=contactNumber;
         }
-        public String getcontactNumber(){
+        String getcontactNumber(){
             return contactNumber;
         }
-        public void setcostPerDay(double costPerDay){
+        void setcostPerDay(double costPerDay){
             this.costPerDay=costPerDay;
         }
-        public double getcost(){
-            return gameType;
+        double getcostPerday(){
+            return costPerDay;
+        }
+        void setownerName(String ownerName){
+            this.ownerName=ownerName;
+        }
+        String getownerName(){
+            return ownerName;
         }
     }
