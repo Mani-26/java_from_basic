@@ -3,10 +3,10 @@ public class encapsulation1{
     public static void main(String args[]){
         Scanner s=new Scanner(System.in);
         int n=s.nextInt();
-        String arr[][]=new String[n][4];
+        String arr[][]=new String[n][3];
         s.nextLine();
         for(int i=0;i<n;i++){
-            for(int j=1;j<=3;j++){
+            for(int j=0;j<3;j++){
                 arr[i][j]=s.nextLine();
             }
         }
@@ -22,16 +22,16 @@ class Employee{
     public int n;
     Employee(String arr[][],String comp,int n){
         for(int i=0;i<n;i++){
-                System.out.println("Employee Name: "+arr[i][1]);
-                System.out.println("Employee ID: "+arr[i][2]);
-                System.out.println("Employee Salary: "+arr[i][3]);
+                System.out.println("Employee Name: "+arr[i][0]);
+                System.out.println("Employee ID: "+arr[i][1]);
+                System.out.println("Employee Salary: "+arr[i][2]);
                 System.out.println("Employee Company Name: ABC Corp");
         }
         System.out.println("Updated Details");
         for(int i=0;i<n;i++){
-                System.out.println("Employee Name: "+arr[i][1]);
-                System.out.println("Employee ID: "+arr[i][2]);
-                System.out.println("Employee Salary: "+arr[i][3]);
+                System.out.println("Employee Name: "+arr[i][0]);
+                System.out.println("Employee ID: "+arr[i][1]);
+                System.out.println("Employee Salary: "+arr[i][2]);
                 System.out.println("Employee Company Name: "+comp);
         }
     }

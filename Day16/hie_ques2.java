@@ -24,7 +24,7 @@ public class ques2{
         System.out.println("Eligibility Mark LNT: "+c.getLNT());
         System.out.println("Eligibility Mark PHILIPS: "+c.getPHILIPS());
         System.out.println("Package CTS: "+s.getCTS());
-        System.out.println("Package TCS: "+s.getCTS());
+        System.out.println("Package TCS: "+s.getCTS())
     }
 }
 class placement{
