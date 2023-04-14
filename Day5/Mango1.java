@@ -5,7 +5,8 @@ public class Mango1{
         int rn=sc.nextInt();
         int cn=sc.nextInt();
         int tn=sc.nextInt();
-        if((tn >= 1 && tn <= cn) || (tn % cn ==1) || (tn % cn ==0)){
+        sc.close();
+        if((tn >= 1 && tn <= cn) || (tn % rn ==1) || (tn % cn ==0)){
                 System.out.println("YES");
         }
         else{

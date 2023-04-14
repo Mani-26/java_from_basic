@@ -5,6 +5,7 @@ public class Mango2{
         int r=sc.nextInt();
         int c=sc.nextInt();
         int t=sc.nextInt();
+        sc.close();
         if((t >= 1 && t <= r) || (t % r ==1) || (t > (r*c)-r && (t <= (r*c)))){
                 System.out.println("YES");
         }

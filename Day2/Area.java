@@ -6,6 +6,7 @@ public class Area{
         int l=sc.nextInt();
         int b=sc.nextInt();
         float r=sc.nextFloat();
+        sc.close();
         int sq=a*a;
         int rc=l*b;
         double cr=(3.14*r*r);

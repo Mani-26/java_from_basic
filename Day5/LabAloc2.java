@@ -6,6 +6,7 @@ public class LabAloc2{
         int y=sc.nextInt();
         int z=sc.nextInt();
         String s=sc.next();
+        sc.close();
         if(s.equals("L1")){
             if(y < z){
                 System.out.println("L2");

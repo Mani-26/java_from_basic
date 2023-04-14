@@ -5,6 +5,7 @@ public class DistSpeed2{
         int d = sc.nextInt();
         int s = sc.nextInt();
         int t = sc.nextInt();
+        sc.close();
         if (d >0&&t>0&&s>0){
         if(s*t >=d)
             System.out.println("Yes");

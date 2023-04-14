@@ -4,6 +4,7 @@ public static void main(String args[]){
     //0,1,1,2,3,5,8,13,21,34,55,89
     Scanner sc=new Scanner(System.in);
     int mth=sc.nextInt();
+    sc.close();
     int a=0,b=1,c=a+b,i;
     if(mth==1){
         System.out.println(a);

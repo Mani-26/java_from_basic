@@ -4,6 +4,7 @@ public class Relational{
         Scanner sc = new Scanner(System.in); 
         int a=sc.nextInt();
         int b=sc.nextInt();
+        sc.close();
         if(a==b){
             System.out.println(a+" and "+b+" are equal");
         }

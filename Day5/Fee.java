@@ -39,5 +39,6 @@ public class Fee{
         else{
             System.out.println("Invalid input");
         }
+        sc.close();
     }
 }

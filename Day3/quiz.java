@@ -1,4 +1,3 @@
-import java.util.*;
 public class quiz{
     public static void main(String args[]){
         int var1=5;

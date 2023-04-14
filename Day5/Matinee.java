@@ -5,6 +5,7 @@ public static void main(String args[])
   Scanner sc=new Scanner(System.in);
   int age=sc.nextInt();
   float show=sc.nextFloat();
+  sc.close();
   if(show==13.30f)
   {
       if(age>13)

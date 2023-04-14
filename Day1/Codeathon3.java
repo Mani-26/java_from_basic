@@ -6,6 +6,7 @@ public class Codeathon3{
         int a=sc.nextInt();//total coins
         int b=sc.nextInt();//blackbear share %
         int c=sc.nextInt();//longben share %
+        sc.close();
         int d=(a*b)/100;//blackbear share coins
         int e=((a-d)*c/100);//longben share coins
         int f=((a-d-e)/3);

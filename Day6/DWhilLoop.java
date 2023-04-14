@@ -1,10 +1,10 @@
 import java.util.Scanner;
-public class dowhileLOOP{
+public class DWhilLoop{
 public static void main(String args[])
 {
   Scanner sc=new Scanner(System.in);
-  int time=0;
   String channel=sc.next();
+  sc.close();
   do{
     System.out.println(channel + " channel is playing now");
   }

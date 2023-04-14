@@ -5,6 +5,7 @@ public class HotelTariff{
         int mnth=sc.nextInt();
         float rent=sc.nextFloat();
         int days=sc.nextInt();
+        sc.close();
         float normal=rent*days;
         float peak=1.2f*rent*days;
         switch(mnth){

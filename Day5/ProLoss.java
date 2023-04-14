@@ -4,6 +4,7 @@ public class ProLoss{
         Scanner sc=new Scanner(System.in);
         float x=sc.nextFloat();
         float y=sc.nextFloat();
+        sc.close();
         float c=(y*12);
         float d=(x-c);
         float e=(c-x);

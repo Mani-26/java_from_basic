@@ -5,6 +5,7 @@ public class ArithOperation{
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         int b=sc.nextInt();
+        sc.close();
         System.out.printf("a+b = "+ (a+b)+" a-b = "+ (a-b)+" a*b = "+ (a*b)+" a/b = "+ (a/b)+" a mod b = "+ (a%b) );
     }
 }

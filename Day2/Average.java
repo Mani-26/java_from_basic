@@ -7,6 +7,7 @@ public class Average{
         float c=sc.nextFloat();
         float d=sc.nextFloat();
         float e=sc.nextFloat();
+        sc.close();
         float avg=(a+b+c+d+e)/5;
         System.out.println(avg);
     }

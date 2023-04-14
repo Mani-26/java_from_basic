@@ -4,6 +4,7 @@ public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
 String str=sc.next();
 int x = sc.nextInt();
+sc.close();
 if (str.equals("front") && x==1){
     System.out.println("Left Handed");
 }

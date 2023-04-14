@@ -3,6 +3,7 @@ public class Collatz{
 public static void main(String args[]){
     Scanner sc=new Scanner(System.in);
     int inp=sc.nextInt();
+    sc.close();
     int count=0;
     System.out.println(inp);
     if(inp!=1){

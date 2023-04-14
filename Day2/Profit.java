@@ -5,6 +5,7 @@ public class Profit{
             int x=sc.nextInt();
             int a=sc.nextInt();
             int b=sc.nextInt();
+            sc.close();
             int profit=((a-b)*x-100);
             System.out.println("The profit obtained is Rs."+profit);
     }

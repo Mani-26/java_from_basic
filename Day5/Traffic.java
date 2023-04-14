@@ -6,6 +6,7 @@ public static void main(String args[]){
     float s=sc.nextFloat();//speed
     float d=sc.nextFloat();//distance
     float t=sc.nextFloat();//signal time
+    sc.close();
     float time=d/s*3600;
     if (time<=t){
      System.out.println("Yes");

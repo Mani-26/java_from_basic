@@ -4,6 +4,7 @@ public class AgeDetector{
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         int b=sc.nextInt();
+        sc.close();
         int c;
         if(a>b){
              c=b+100-a;

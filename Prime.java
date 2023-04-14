@@ -3,6 +3,7 @@ public class Prime{
     public static void main(String []args){
         Scanner s=new Scanner(System.in);
         int a=s.nextInt();
+        s.close();
         int count=0;
         for(int i=2;i<a;i++){
             if(a%i==0){

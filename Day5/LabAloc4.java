@@ -6,6 +6,7 @@ public class LabAloc4{
         int y=sc.nextInt();
         int z=sc.nextInt();
         int n=sc.nextInt();
+        sc.close();
         if(n<=x && n<=y && n<=z){
             if(x<=y && x<=z){
                 System.out.println("L1");

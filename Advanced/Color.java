@@ -3,6 +3,7 @@ public class Color{
     public static void main(String []args){
         Scanner sc=new Scanner(System.in);
         String color = sc.nextLine();
+        sc.close();
         if (color.equals("BLUE"))
             System.out.println("It is Dawn");
         else if (color.equals("RED"))

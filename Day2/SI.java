@@ -5,6 +5,7 @@ public class SI{
         int p=sc.nextInt();
         int n=sc.nextInt();
         float r=sc.nextFloat();
+        sc.close();
         float interest=p*n*r/100;
         System.out.printf("%.2f",interest);
     }

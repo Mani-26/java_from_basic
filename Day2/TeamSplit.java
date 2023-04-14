@@ -4,6 +4,7 @@ public class TeamSplit{
         Scanner sc=new Scanner(System.in);
         int Stud=sc.nextInt();
         int Team=sc.nextInt();
+        sc.close();
         System.out.println("The number of students in each team is "+(Stud/Team)+" and left out is "+(Stud % Team));
     }
 }

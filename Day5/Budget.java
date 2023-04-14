@@ -12,6 +12,7 @@ public static void main(String args[]){
         int c=sc.nextInt();
         int d=sc.nextInt();
         int e=sc.nextInt();
+        sc.close();
         double budget=((a*Blast_Rifle)+(b*Visual_Sensors)+(c*Auditory_Sensors)+(d*Arms)+(e*Legs));
         if(budget<=15000){
             System.out.println("Yes");

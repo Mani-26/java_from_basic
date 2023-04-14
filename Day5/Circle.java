@@ -9,6 +9,7 @@ int r1=sc.nextInt();
 int x2=sc.nextInt();
 int y2=sc.nextInt();
 int r2=sc.nextInt();
+sc.close();
 double d=Math.sqrt(Math.pow((x1-x2),2)+Math.pow((y1-y2),2));
 if ((int)d>(r1+r2)){
     System.out.println("Do not Overlap");
